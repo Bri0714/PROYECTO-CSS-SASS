@@ -1,0 +1,43 @@
+/*----------------------------------
+------------------------------------
+------------VEHICULOS-----------------
+-------------------------------------
+-------------------------------------
+*/
+
+.figure{
+     
+    margin: 1px;
+}
+
+figcaption{
+
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #223829;
+   
+}
+
+.vehiculos {
+    height: 110vh;
+    background-color: #06501d4b;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 300px 400px;
+    margin: 1px;
+    padding: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.biblio{
+
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+}
+
+.biblio:hover{
+
+    transform: scale(1.1);
+}

@@ -1,3 +1,29 @@
+/*menu para las siguientes paginas*/
+.barra2 {
+  list-style-type: none;
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.959);
+  text-decoration: none; }
+
+.barra3 {
+  padding: 10px;
+  background-color: #04a843;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.barra3 ul {
+  list-style-type: none; }
+
+.barra3 ul li {
+  background-color: rgba(9, 107, 0, 0.582);
+  display: inline-block;
+  padding: 18px;
+  margin: 30px; }
+
 /*Estilos principales del css*/
 .imagenfondo {
   background-image: url(../img/fondo-index.jpg);
@@ -46,6 +72,37 @@ nav ul li {
   text-shadow: 1px 1px black;
   text-decoration: none; }
 
+/* main de mi navegador*/
+.importantisimo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.importante {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  /*margin: 100px;*/ }
+
+.importante h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+  color: #efefef;
+  background-color: rgba(2, 68, 27, 0.597);
+  padding: 25px;
+  margin: 3px; }
+
+.importante p {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(0, 107, 41, 0.597);
+  text-align: justify;
+  margin-left: 1100px;
+  margin-right: 10px;
+  color: #efefef; }
+
 /*fondo de pantalla*/
 .flex-center {
   display: flex;
@@ -60,6 +117,140 @@ nav ul li {
   height: 100vh;
   min-height: 150vh;
   background-image: url(file:///C:/Users/Pc/Documents/proyecto/img/imagen%20de%20fondo.jpg); }
+
+/*----------------------------------
+------------------------------------
+------------NOSOTROS-----------------
+-------------------------------------
+-------------------------------------
+*/
+/*quienes somos */
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 45px;
+  color: #0f1b13;
+  text-align: center; }
+
+.nosotros {
+  background-color: #c7c6c6;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center; }
+
+.trans {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #223829;
+  margin: 20px; }
+
+.imgnosotros {
+  height: 550px;
+  margin: 20px; }
+
+/*----------------------------------
+------------------------------------
+------------Servicios-----------------
+-------------------------------------
+-------------------------------------
+*/
+.servicios {
+  background-color: #03350394;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center; }
+
+.escolar {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #f2f7f4;
+  margin: 20px; }
+
+.imgnosotros {
+  width: 300px;
+  height: 250px;
+  transform: perspective(500px) rotateY(150deg); }
+
+/*----------------------------------
+------------------------------------
+------------VEHICULOS-----------------
+-------------------------------------
+-------------------------------------
+*/
+.figure {
+  margin: 1px; }
+
+figcaption {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #223829; }
+
+.vehiculos {
+  height: 110vh;
+  background-color: #06501d4b;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 400px;
+  margin: 1px;
+  padding: 50px;
+  align-items: center;
+  justify-items: center; }
+
+.biblio {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out; }
+
+.biblio:hover {
+  transform: scale(1.1); }
+
+/*----------------------------------
+------------------------------------
+------------Contacto-----------------
+-------------------------------------
+-------------------------------------
+*/
+.input {
+  background-color: #05a036;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+form {
+  background-color: #c7c6c6;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.formulario {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #223829;
+  margin: 20px; }
+
+.contacto2 {
+  background-color: #06501d4b;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0px 100px;
+  padding: 70px;
+  justify-content: center;
+  text-align: center;
+  align-items: start;
+  justify-items: stretch; }
 
 /*pie de pagina*/
 .pie-pagina {
@@ -111,197 +302,6 @@ p {
 
 .small, small {
   font-size: 0.6em; }
-
-/* main de mi navegador*/
-.importantisimo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.importante {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  /*margin: 100px;*/ }
-
-.importante h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 3rem;
-  color: #efefef;
-  background-color: rgba(2, 68, 27, 0.597);
-  padding: 25px;
-  margin: 3px; }
-
-.importante p {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgba(0, 107, 41, 0.597);
-  text-align: justify;
-  margin-left: 1100px;
-  margin-right: 10px;
-  color: #efefef; }
-
-/*----------------------------------
-------------------------------------
-------------NOSOTROS-----------------
--------------------------------------
--------------------------------------
-*/
-/*menu para las siguientes paginas*/
-.barra2 {
-  list-style-type: none;
-  color: white;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 20px;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.959);
-  text-decoration: none; }
-
-.barra3 {
-  padding: 10px;
-  background-color: #04a843;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-
-.barra3 ul {
-  list-style-type: none; }
-
-.barra3 ul li {
-  background-color: rgba(9, 107, 0, 0.582);
-  display: inline-block;
-  padding: 18px;
-  margin: 30px; }
-
-/*quienes somos */
-h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 45px;
-  color: #0f1b13;
-  text-align: center; }
-
-.nosotros {
-  background-color: #c7c6c6;
-  max-width: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center; }
-
-.trans {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #223829;
-  margin: 20px; }
-
-.imgnosotros {
-  height: 550px;
-  margin: 20px; }
-
-/*----------------------------------
-------------------------------------
-------------VEHICULOS-----------------
--------------------------------------
--------------------------------------
-*/
-.figure {
-  margin: 1px; }
-
-figcaption {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #223829; }
-
-.vehiculos {
-  height: 110vh;
-  background-color: #06501d4b;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 400px;
-  margin: 1px;
-  padding: 50px;
-  align-items: center;
-  justify-items: center; }
-
-.biblio {
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out; }
-
-.biblio:hover {
-  transform: scale(1.1); }
-
-/*----------------------------------
-------------------------------------
-------------Servicios-----------------
--------------------------------------
--------------------------------------
-*/
-.servicios {
-  background-color: #03350394;
-  max-width: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center; }
-
-.escolar {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #f2f7f4;
-  margin: 20px; }
-
-.imgnosotros {
-  width: 300px;
-  height: 250px;
-  transform: perspective(500px) rotateY(150deg); }
-
-/*----------------------------------
-------------------------------------
-------------Contacto-----------------
--------------------------------------
--------------------------------------
-*/
-.input {
-  background-color: #05a036;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-form {
-  background-color: #c7c6c6;
-  max-width: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
-
-.formulario {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #223829;
-  margin: 20px; }
-
-.contacto2 {
-  background-color: #06501d4b;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0px 100px;
-  padding: 70px;
-  justify-content: center;
-  text-align: center;
-  align-items: start;
-  justify-items: stretch; }
 
 /*----------------------------------
 ------------------------------------

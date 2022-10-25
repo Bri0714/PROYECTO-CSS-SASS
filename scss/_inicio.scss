@@ -1,0 +1,115 @@
+/*Estilos principales del css*/
+.imagenfondo{
+    background-image: url(../img/fondo-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.tam4 {
+    background-color: rgb(2, 68, 27);
+    text-align: right;
+    padding: 0px;
+    margin: 0.5px;
+    font-size: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    color: #efefef;
+    margin: 1px;
+}
+
+div img {
+    max-width: 400px;
+    max-height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar{   
+    
+    padding: 10px;
+    background-color: rgb(4, 168, 67);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+    margin: 13px;
+}
+
+.barra{
+    
+ list-style-type: none;
+ color: white;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 17px;
+ text-shadow: 1px 1px black;
+ text-decoration: none;
+
+ 
+}
+
+/* main de mi navegador*/
+.importantisimo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.importante{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    /*margin: 100px;*/
+}
+.importante h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #efefef;
+    background-color: rgba(2, 68, 27, 0.597);
+    padding: 25px;
+    margin: 3px;
+}
+
+.importante p {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 107, 41, 0.597);
+    text-align: justify;
+    margin-left: 1100px;
+    margin-right: 10px;
+    color: #efefef;
+}
+
+
+
+/*fondo de pantalla*/
+
+.flex-center{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#fondo{
+
+    width: 4000px;
+    height: 100vh;
+    min-height: 150vh;
+    background-image: url(file:///C:/Users/Pc/Documents/proyecto/img/imagen%20de%20fondo.jpg);
+}
