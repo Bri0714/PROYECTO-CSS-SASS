@@ -1,37 +1,31 @@
-/*menu para las siguientes paginas*/
 
-.barra2{
-
-    list-style-type: none;
-    color: white;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 20px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.959);
-    text-decoration: none;
-   
-
-}
-
-.barra3 {
+/*estilos de mi navegador con el logo*/
+.navbar{   
     
     padding: 10px;
     background-color: rgb(4, 168, 67);
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+
+    nav ul{
+
+        list-style-type: none;
+    }
+    
 }
 
-.barra3 ul{
-
-    list-style-type: none;
-}
-
-.barra3 ul li{
-
-    background-color: rgba(9, 107, 0, 0.582);
+nav ul li {
     display: inline-block;
-    padding: 18px;
-    margin: 30px;
+    padding: 50px;
+    margin: 13px;
+}
 
+div img {
+    max-width: 400px;
+    max-height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }

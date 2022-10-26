@@ -5,19 +5,6 @@
 -------------------------------------
 */
 
-.figure{
-     
-    margin: 1px;
-}
-
-figcaption{
-
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #223829;
-   
-}
-
 .vehiculos {
     height: 110vh;
     background-color: #06501d4b;
@@ -28,16 +15,29 @@ figcaption{
     padding: 50px;
     align-items: center;
     justify-items: center;
-}
 
-.biblio{
+    .figure{
+     
+        margin: 1px;
+    }
+    
+    figcaption{
+    
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #223829;
+       
+    }
+
+    .biblio{
 
         transition-property: all;
         transition-duration: 1s;
         transition-timing-function: ease-in-out;
-}
+    }
 
-.biblio:hover{
+    .biblio:hover{
 
-    transform: scale(1.1);
+        transform: scale(1.1);
+    }
 }

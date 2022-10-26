@@ -1,30 +1,27 @@
-/*menu para las siguientes paginas*/
-.barra2 {
-  list-style-type: none;
-  color: white;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 20px;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.959);
-  text-decoration: none; }
-
-.barra3 {
+/*estilos de mi navegador con el logo*/
+.navbar {
   padding: 10px;
   background-color: #04a843;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center; }
+  .navbar nav ul {
+    list-style-type: none; }
 
-.barra3 ul {
-  list-style-type: none; }
-
-.barra3 ul li {
-  background-color: rgba(9, 107, 0, 0.582);
+nav ul li {
   display: inline-block;
-  padding: 18px;
-  margin: 30px; }
+  padding: 50px;
+  margin: 13px; }
 
-/*Estilos principales del css*/
+div img {
+  max-width: 400px;
+  max-height: 600px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; }
+
+/*fondo solo para mi inicio*/
 .imagenfondo {
   background-image: url(../img/fondo-index.jpg);
   background-repeat: no-repeat;
@@ -41,82 +38,32 @@
   color: #efefef;
   margin: 1px; }
 
-div img {
-  max-width: 400px;
-  max-height: 600px;
-  align-items: center;
-  justify-content: center;
-  padding: 10px; }
-
-.navbar {
-  padding: 10px;
-  background-color: #04a843;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
-
-nav ul {
-  list-style-type: none; }
-
-nav ul li {
-  display: inline-block;
-  padding: 50px;
-  margin: 13px; }
-
-.barra {
-  list-style-type: none;
-  color: white;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 17px;
-  text-shadow: 1px 1px black;
-  text-decoration: none; }
-
 /* main de mi navegador*/
 .importantisimo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-
-.importante {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  /*margin: 100px;*/ }
-
-.importante h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 3rem;
-  color: #efefef;
-  background-color: rgba(2, 68, 27, 0.597);
-  padding: 25px;
-  margin: 3px; }
-
-.importante p {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgba(0, 107, 41, 0.597);
-  text-align: justify;
-  margin-left: 1100px;
-  margin-right: 10px;
-  color: #efefef; }
-
-/*fondo de pantalla*/
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-#fondo {
-  width: 4000px;
-  height: 100vh;
-  min-height: 150vh;
-  background-image: url(file:///C:/Users/Pc/Documents/proyecto/img/imagen%20de%20fondo.jpg); }
+  .importantisimo .importante {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column; }
+  .importantisimo h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #efefef;
+    background-color: rgba(2, 68, 27, 0.597);
+    padding: 25px;
+    margin: 3px; }
+  .importantisimo p {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 107, 41, 0.597);
+    text-align: justify;
+    margin-left: 1100px;
+    margin-right: 10px;
+    color: #efefef; }
 
 /*----------------------------------
 ------------------------------------
@@ -140,13 +87,12 @@ h1 {
   align-content: center;
   justify-content: space-around;
   align-items: center; }
-
-.trans {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #223829;
-  margin: 20px; }
+  .nosotros .trans {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: justify;
+    color: #223829;
+    margin: 20px; }
 
 .imgnosotros {
   height: 550px;
@@ -167,13 +113,12 @@ h1 {
   align-content: center;
   justify-content: space-around;
   align-items: center; }
-
-.escolar {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #f2f7f4;
-  margin: 20px; }
+  .servicios .escolar {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: justify;
+    color: #f2f7f4;
+    margin: 20px; }
 
 .imgnosotros {
   width: 300px;
@@ -186,14 +131,6 @@ h1 {
 -------------------------------------
 -------------------------------------
 */
-.figure {
-  margin: 1px; }
-
-figcaption {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #223829; }
-
 .vehiculos {
   height: 110vh;
   background-color: #06501d4b;
@@ -204,14 +141,18 @@ figcaption {
   padding: 50px;
   align-items: center;
   justify-items: center; }
-
-.biblio {
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out; }
-
-.biblio:hover {
-  transform: scale(1.1); }
+  .vehiculos .figure {
+    margin: 1px; }
+  .vehiculos figcaption {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #223829; }
+  .vehiculos .biblio {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; }
+  .vehiculos .biblio:hover {
+    transform: scale(1.1); }
 
 /*----------------------------------
 ------------------------------------
@@ -219,12 +160,6 @@ figcaption {
 -------------------------------------
 -------------------------------------
 */
-.input {
-  background-color: #05a036;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
 form {
   background-color: #c7c6c6;
   max-width: 100%;
@@ -233,13 +168,17 @@ form {
   flex-direction: column;
   justify-content: space-around;
   align-items: center; }
-
-.formulario {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  text-align: justify;
-  color: #223829;
-  margin: 20px; }
+  form .formulario {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: justify;
+    color: #223829;
+    margin: 20px; }
+  form input {
+    background-color: #05a0362f;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .contacto2 {
   background-color: #06501d4b;
@@ -260,28 +199,23 @@ form {
   align-items: center;
   width: 100%;
   color: #c7c6c6; }
-
-#red-social img {
-  height: 35px; }
-
-.pie-pagina .grupo-1 {
-  background-color: #02441b;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between; }
-
-.pie-pagina .grupo-1 a img {
-  height: 40px; }
-
-.pie-pagina .grupo-1 .box {
-  text-align: center;
-  margin: 0px 30px; }
-
-.pie-pagina .box {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch; }
+  .pie-pagina #red-social img {
+    height: 35px; }
+  .pie-pagina .grupo-1 {
+    background-color: #02441b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .pie-pagina .grupo-1 a img {
+    height: 40px; }
+  .pie-pagina .grupo-1 .box {
+    text-align: center;
+    margin: 0px 30px; }
+  .pie-pagina .box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
 
 h2 {
   display: block;
@@ -418,16 +352,14 @@ p {
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
-  text-shadow: 1px 1px black;
   text-decoration: none;
   display: block;
-  color: #f8f9fa;
   text-decoration: none; }
 
 .nav-link {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #0a0a0a;
   text-decoration: none;
   display: block;
   color: #f8f9fa;

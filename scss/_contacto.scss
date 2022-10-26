@@ -5,15 +5,6 @@
 -------------------------------------
 */
 
-
-.input{
-
-    background-color: #05a036;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 form{
 
 
@@ -24,21 +15,30 @@ form{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
 
-.formulario{
+    .formulario{
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    text-align: justify;
-    color: #223829;
-    margin:  20px;
-   
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        text-align: justify;
+        color: #223829;
+        margin:  20px;
+       
+    }
+    
+    input{
+
+        background-color: #05a0362f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 .contacto2{
-    
-   
+        
+       
     background-color: #06501d4b;
     display: grid;
     grid-template-columns: repeat(2,1fr);
