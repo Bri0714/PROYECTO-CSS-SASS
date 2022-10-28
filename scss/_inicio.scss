@@ -6,7 +6,7 @@
 }
 
 .tam4 {
-    background-color: rgb(2, 68, 27);
+    background-color:$color-secundario;
     text-align: right;
     padding: 0px;
     margin: 0.5px;
@@ -35,8 +35,8 @@
     h1 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 3rem;
-        color: #efefef;
-        background-color: rgba(2, 68, 27, 0.597);
+        color:$color-lighttext;
+        background-color: $color-main;
         padding: 25px;
         margin: 3px;
     }
@@ -44,10 +44,10 @@
     p {
         font-size: 2rem;
         font-family: 'Courier New', Courier, monospace;
-        background-color: rgba(0, 107, 41, 0.597);
+        background-color: $color-main;
         text-align: justify;
         margin-left: 1100px;
         margin-right: 10px;
-        color: #efefef;
+        color: $color-lighttext;
     }
 }

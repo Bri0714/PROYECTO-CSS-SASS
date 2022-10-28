@@ -9,13 +9,13 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
-    color: #0f1b13;
+    color: $color-h1;
     text-align: center;
 }
 
 .nosotros{
     
-    background-color: #c7c6c6;
+    background-color:$color-fondo2;
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -29,11 +29,17 @@ h1 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         text-align: justify;
-        color: #223829;
+        color:$color-text;
         margin:  20px;
        
     
     }
+
+}
+
+.habalados{
+
+    background-color: $color-primario;
 }
 
 .imgnosotros{

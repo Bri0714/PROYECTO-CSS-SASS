@@ -7,7 +7,7 @@
 
 .servicios{
 
-    background-color: #03350394;
+    background-color: $color-fondo1;
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         text-align: justify;
-        color: #f2f7f4;
+        color:$color-lighttext ;
         margin:  20px;
     
     }

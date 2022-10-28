@@ -136,6 +136,7 @@
 }
 
 @media (max-width: 768px){
+    
     .flex-md-row {
     flex-direction: column!important;
     }
@@ -148,3 +149,4 @@
         grid-template-columns: repeat(1,1fr);
     }
 }
+
