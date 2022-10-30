@@ -8,7 +8,7 @@
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 45px;
+    font-size: $spacing*9;
     color: $color-h1;
     text-align: center;
 }
@@ -26,10 +26,10 @@ h1 {
     .trans{
     
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 15px;
+        font-size: $spacing*3;
         text-align: justify;
         color:$color-text;
-        margin:  20px;
+        margin:  $spacing*4;
        
     
     }
@@ -42,6 +42,6 @@ h1 {
 }
 
 .imgnosotros{
-    height: 550px;
-    margin:  20px;
+    height: $spacing*110;
+    margin:  $spacing*4;
 }

@@ -8,7 +8,7 @@
 .navbar{   
     
     @include filas;
-    padding: 10px;
+    padding: $spacing*2;
     background-color: $color-primario;
     justify-content: space-around;
     align-items: center;
@@ -22,7 +22,7 @@
 
 nav ul li {
     display: inline-block;
-    padding: 50px;
+    padding: $spacing*10;
     margin: 13px;
 }
 
@@ -31,5 +31,5 @@ div img {
     max-height: 600px;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: $spacing*2;
 }

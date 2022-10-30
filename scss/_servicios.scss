@@ -18,10 +18,10 @@
     .escolar{
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 15px;
+        font-size: $spacing*3;
         text-align: justify;
         color:$color-lighttext ;
-        margin:  20px;
+        margin:  $spacing*4;
     
     }
 
@@ -29,7 +29,7 @@
 
 .imgnosotros{
 
-    width: 300px;
-    height: 250px;
+    width: $spacing*60;
+    height: $spacing*50;
     transform: perspective(500px) rotateY(150deg);
 }

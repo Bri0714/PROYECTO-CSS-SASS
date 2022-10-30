@@ -1,3 +1,4 @@
+
 /*fondo solo para mi inicio*/
 .imagenfondo{
     background-image: url(../img/fondo-index.jpg);
@@ -10,7 +11,7 @@
     text-align: right;
     padding: 0px;
     margin: 0.5px;
-    font-size: 10px;
+    font-size: $spacing*2;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     align-items: center;
     color: #efefef;
@@ -51,7 +52,7 @@
         font-size: 2rem;
         color:$color-lighttext;
         background-color: $color-main;
-        padding: 25px;
+        padding: $spacing*5;
         margin: 3px;
     }
 
@@ -61,7 +62,7 @@
         background-color: $color-main;
         text-align: justify;
         margin-left: 1100px;
-        margin-right: 10px;
+        margin-right:$spacing*2;
         color: $color-lighttext;
     }
 }

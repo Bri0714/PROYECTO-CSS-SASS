@@ -17,10 +17,10 @@ form{
     .formulario{
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 15px;
+        font-size: $spacing*3;
         text-align: justify;
         color:$color-text;
-        margin:  20px;
+        margin:  $spacing*4;
        
     }
     
@@ -41,7 +41,7 @@ form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 0px 100px;
-    padding: 70px;
+    padding: $spacing*14;
     justify-content: center;
     text-align: center;
     align-items: start;

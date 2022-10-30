@@ -1,7 +1,7 @@
 /*----------------------------------
 ------------------------------------
 ------------VEHICULOS-----------------
--------------------------------------
+-------------------------------------  
 -------------------------------------
 */
 
@@ -12,7 +12,7 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 300px 400px;
     margin: 1px;
-    padding: 50px;
+    padding: $spacing*10;
     align-items: center;
     justify-items: center;
 
@@ -23,7 +23,7 @@
     
     figcaption{
     
-        font-size: 30px;
+        font-size: $spacing*6;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color:$color-text;
        
