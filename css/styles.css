@@ -1,10 +1,11 @@
 /*colores*/
+/*mixin*/
 /*estilos de mi navegador con el logo*/
 .navbar {
-  padding: 10px;
-  background-color: #04a843;
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  background-color: #04a843;
   justify-content: space-around;
   align-items: center; }
   .navbar nav ul {
@@ -39,6 +40,7 @@ div img {
   color: #efefef;
   margin: 1px; }
 
+/*mixin*/
 /* main de mi navegador*/
 .importantisimo {
   display: flex;
@@ -47,9 +49,9 @@ div img {
   justify-content: center; }
   .importantisimo .importante {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column; }
+    align-items: flex-end; }
   .importantisimo h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
@@ -80,11 +82,11 @@ h1 {
   text-align: center; }
 
 .nosotros {
+  display: flex;
+  flex-direction: row;
   background-color: #b1b1b1;
   max-width: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: space-around;
   align-items: center; }
@@ -109,11 +111,11 @@ h1 {
 -------------------------------------
 */
 .servicios {
+  display: flex;
+  flex-direction: row;
   background-color: #03350394;
   max-width: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: space-around;
   align-items: center; }
@@ -165,11 +167,11 @@ h1 {
 -------------------------------------
 */
 form {
+  display: flex;
+  flex-direction: column;
   background-color: #b1b1b1;
   max-width: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center; }
   form .formulario {
@@ -197,18 +199,18 @@ form {
 
 /*pie de pagina*/
 .pie-pagina {
-  background-color: #04a843;
   display: flex;
   flex-direction: column;
+  background-color: #04a843;
   align-items: center;
   width: 100%;
   color: #fffafa; }
   .pie-pagina #red-social img {
     height: 35px; }
   .pie-pagina .grupo-1 {
-    background-color: #02441b;
     display: flex;
     flex-direction: row;
+    background-color: #02441b;
     align-items: center;
     justify-content: space-between; }
   .pie-pagina .grupo-1 a img {

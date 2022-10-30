@@ -2,9 +2,8 @@
 
 .pie-pagina{
     
+    @include flex;
     background-color:  $color-primario ;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
     color:$color-lighttext;
@@ -15,9 +14,8 @@
     
     .grupo-1{
         
+        @include filas;
         background-color: $color-secundario;
-        display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -33,8 +31,7 @@
     
     .box {
     
-        display: flex;
-        flex-direction: column;
+        @include flex;
         align-items: stretch;
     }
     

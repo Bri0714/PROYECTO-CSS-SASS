@@ -1,11 +1,15 @@
+/*mixin*/
+@mixin filas{
 
+    display: flex;
+    flex-direction: row;
+}
 /*estilos de mi navegador con el logo*/
 .navbar{   
     
+    @include filas;
     padding: 10px;
     background-color: $color-primario;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 

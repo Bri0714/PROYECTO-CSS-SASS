@@ -17,18 +17,32 @@
     margin: 1px;
 }
 
-/* main de mi navegador*/
-.importantisimo{
+/*mixin*/
+@mixin flex {
     display: flex;
     flex-direction: column;
+    
+}
+
+@mixin filas{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+    /* main de mi navegador*/
+.importantisimo{
+    @include flex;
     align-items: center;
     justify-content: center;
 
     .importante{
-        display: flex;
+        
+        @include flex;
         justify-content: flex-end;
         align-items: flex-end;
-        flex-direction: column;
+        
     
     }
     
