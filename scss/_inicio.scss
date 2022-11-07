@@ -18,6 +18,7 @@
     margin: 1px;
 }
 
+
 /*mixin*/
 @mixin flex {
     display: flex;
@@ -61,8 +62,9 @@
         font-family: 'Courier New', Courier, monospace;
         background-color: $color-main;
         text-align: justify;
-        margin-left: 1100px;
+        margin-left: $spacing*140;
         margin-right:$spacing*2;
+        margin-bottom: $spacing*44;
         color: $color-lighttext;
     }
 }
