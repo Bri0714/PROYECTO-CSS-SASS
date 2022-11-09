@@ -24,13 +24,13 @@
 
 nav ul li {
     display: inline-block;
-    padding: $spacing*3;
-    margin: $spacing*1;
+    padding: $spacing*6;
+
 }
 
 div img {
-    max-width: $spacing*80;
-    max-height: $spacing*120;
+    max-width: $spacing*60;
+    max-height: $spacing*80;
     align-items: center;
     justify-content: center;
     padding: $spacing*2;
